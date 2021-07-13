@@ -1,0 +1,31 @@
+---
+# References and Reference Style
+csl: journal-of-neurophysiology.csl
+bibliography: references.bib
+
+# Names of Input and Output Files
+input-file: manuscript.md
+output-file: manuscript.pdf  # Change to .docx to make a Word file
+
+# Addition to LaTeX Template
+include-in-header: header.tex # Change margin and line spacing
+include-before-body: before_body.tex
+include-after-body: after_body.tex
+
+# LaTeX Specifications
+pdf-engine: xelatex
+variables:
+  documentclass: article
+  mainfont: "DejaVu Serif"
+  sansfont: Arial
+  classoption:
+    - 10pt # 11pt, 12pt
+
+# To have numbered sections, uncomment the following line.
+# But we don't want our Title or Abstract to be numbered,
+# so we will add {.unnumbered} next to our Title and Abstract
+# headers, separated by one space.
+# Example: # Abstract {.unnumbered}
+
+# number-sections: true
+...
