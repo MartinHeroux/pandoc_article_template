@@ -1,6 +1,6 @@
 ---
 # References and Reference Style
-csl: jneurophysiol.csl
+csl: journal-of-neurophysiology.csl
 bibliography: references.bib
 citeproc: true # required in pandoc 2.14
 

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b43d89a-5f71-4bb5-8962-2cf2cd8b7505" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/header.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/header.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/journal-of-neurophysiology.csl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manuscript.md" beforeDir="false" afterPath="$PROJECT_DIR$/manuscript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manuscript.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/manuscript.pdf" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1vIawgmiZQof0Um4qVfwq9ShDyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b43d89a-5f71-4bb5-8962-2cf2cd8b7505" name="Default Changelist" comment="" />
+      <created>1626252296833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626252296833</updated>
+      <workItem from="1626252298054" duration="425000" />
+      <workItem from="1626252739678" duration="19000" />
+      <workItem from="1626252759782" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="826" y="222" width="530" height="630" key="FileChooserDialogImpl" timestamp="1626252756822">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="826" y="222" width="530" height="630" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1626252756822" />
+    <state x="324" y="86" width="1544" height="905" key="SettingsEditor" timestamp="1626252729544">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="324" y="86" width="1544" height="905" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1626252729544" />
+  </component>
+</project>

@@ -35,9 +35,9 @@ If adding line in middle, end line with a space and \
 \newpage
 
 # Abstract
-**Purpose.** If journal requires abstract sections, these can be included and made bold by including double asterisks `**<section_name>**` before and after each header. If these are not needed, simply do not include them, simple.
+**Purpose.** If journal requires abstract sections, these can be included and made bold by including double asterisks `**section_name**` before and after each header. If these are not needed, simply do not include them, simple.
 **Methods.** Because of our selected font, we can easily include special characters directly into our markdown file and these will be rendered properly. This provides some motivation to find a text editor that has a good *character map* plugin. Personally, I have grown rather fond of the Atom editor, which has a `character-map` plugin that does the trick. by clicking on a hotkey, `Alt-l`, I can type the name of the symbol I am looking and it is inserted into my document.
-**Results.** So lets say I just pressed `Alt-l` and typed `plusminus`. The item at the top of the list would be `±`, as expected. I hit `Enter` and it is inserted into my document. This makes it easy to say that, on average, my level of frustration drafting a manuscript has decreased by 77% ± 4% since learning about Markdown and Pandoc. Also, scientific papers always sound fancier when you use Greek letters. So I will search for the letter `beta`, which gives me the special character β. Also, because Pandoc converts Markdown to PDF using LaTeX, it is amazing support for mathematical equations and the like. Most basic tutorials on LaTeX should cover the basics of math-mode (i.e. `$<math stuff>$`).
+**Results.** So lets say I just pressed `Alt-l` and typed `plusminus`. The item at the top of the list would be `±`, as expected. I hit `Enter` and it is inserted into my document. This makes it easy to say that, on average, my level of frustration drafting a manuscript has decreased by 77% ± 4% since learning about Markdown and Pandoc. Also, scientific papers always sound fancier when you use Greek letters. So I will search for the letter `beta`, which gives me the special character β. Also, because Pandoc converts Markdown to PDF using LaTeX, it is amazing support for mathematical equations and the like. Most basic tutorials on LaTeX should cover the basics of math-mode (i.e. `$math stuff$`).
 **Conclusion.** This dummy manuscript and its accompanying files includes everything you need to generate a basic manuscript for submission. The rest of this paper will provide a brief overview of Markdown, Pandoc and the various parts that accompany this manuscript to generate the final result. I chose a simple approach and targeted generic formatting. Much more sophisticated manuscripts can be generated, but it is always a good idea to start small and simple.
 
 \newpage
@@ -67,6 +67,7 @@ In `header.yaml`, we find two commands related to referencing. One  specifies th
 # References and Reference Style
 csl: journal-of-neurophysiology.csl
 bibliography: references.bib
+citeproc: true # required in pandoc 2.14
 ```
 
 `csl` stands for Citation Style Language. As stated on its website:
