@@ -65,7 +65,7 @@ In `header.yaml`, we find two commands related to referencing. One  specifies th
 
 ``` yaml
 # References and Reference Style
-csl: jneurophysiol.csl
+csl: journal-of-neurophysiology.csl
 bibliography: references.bib
 ```
 

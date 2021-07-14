@@ -1,7 +1,8 @@
 ---
 # References and Reference Style
-csl: journal-of-neurophysiology.csl
+csl: jneurophysiol.csl
 bibliography: references.bib
+citeproc: true # required in pandoc 2.14
 
 # Names of Input and Output Files
 input-file: manuscript.md
